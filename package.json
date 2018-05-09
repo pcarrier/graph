@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@types/graphql": "^0.13.0",
+    "@types/node": "^10.0.6",
+    "graphql": "^0.13.2",
+    "typescript": "^2.8.3"
+  },
+  "scripts": {
+    "prepare": "tsc",
+    "graph": "node dist/graph.js"
+  }
+}
